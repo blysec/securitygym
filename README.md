@@ -1,6 +1,7 @@
 # Security Gym
 
-Secure Software Development Training Platform
+Secure Software Development Training Platform. This version offers course content in english with additional languages and courses.
+Upstream: https://github.com/yandex/securitygym
 
 ## Run Locally
 
