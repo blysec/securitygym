@@ -120,8 +120,8 @@ def lesson_content_from_path(course_name, lesson_name):
         if os.path.isdir(os.path.join(lesson_path, 'description')):
             # Get Description from MarkDown file
             # TODO: multilanguage
-            if os.path.isfile(os.path.join(lesson_path, 'description', 'ru.md')):
-                description_filename = os.path.join(lesson_path, 'description', 'ru.md')
+            if os.path.isfile(os.path.join(lesson_path, 'description', 'en.md')):
+                description_filename = os.path.join(lesson_path, 'description', 'en.md')
                 lesson['description'] = open(description_filename).read()
         # Search for prev/next lesson
         lessons = list(filter(lambda name: os.path.isdir(os.path.join(COURSES_PATH, course_name, name))
